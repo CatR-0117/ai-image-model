@@ -9,7 +9,7 @@ export default function ToolTabs() {
   const pathname = usePathname();
 
   return (
-    <Tabs value={pathname}>
+    <Tabs value={pathname} className="max-w-full overflow-x-auto">
       <TabsList className="h-9 p-1">
         <TabsTrigger
           value="/image-analysis"
